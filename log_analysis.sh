@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# log_analyzer.sh - A simple bash script to inspect various log files on a Linux system
+# A bash script to inspect various log files on a Linux system
 #
 # Author: Garrett Solomon
 # Date: 12 January 2024
