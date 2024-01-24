@@ -71,8 +71,6 @@ analyze_log() {
     echo "On $DATE, there were $DATE_COUNT log entries."
   fi
 
-  # Add more analysis based on your requirements
-
 }
 
 # Main script execution
