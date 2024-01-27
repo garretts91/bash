@@ -5,6 +5,8 @@
 # Garrett Solomon
 # January 12, 2024
 #
+# TODO: Check for multiple arguments
+#
 # Usage: log_analyzer.sh [OPTIONS] LOG_FILE
 # Options:
 #   -u, --user USER       Analyze logs for a specific user.
