@@ -90,11 +90,10 @@ analyze_log() {
     fi
   fi
 
-  if [ -n "$PATTERN" ]; then
-    echo "Lines matching the pattern '$PATTERN':"
-    grep -i "$PATTERN" "$LOG_FILE" | sed 's/^.*'"$PATTERN"'/\1/'
-  fi
-}
+if [ -n "$PATTERN" ]; then
+  echo "Lines matching the pattern '$PATTERN':"
+  grep -i "$PATTERN" "$LOG_FILE" | sed 's/^.*'"$PATTERN"'/&/'
+fi
 
 # Main script execution
 analyze_log "$LOG_FILE" "$USER" "$DATE" "$PATTERN"
