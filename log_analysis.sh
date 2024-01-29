@@ -95,6 +95,7 @@ if [ -n "$PATTERN" ]; then
   grep -i "$PATTERN" "$LOG_FILE" | sed 's/^.*'"$PATTERN"'/&/'
 fi
 
+
 # Main script execution
 analyze_log "$LOG_FILE" "$USER" "$DATE" "$PATTERN"
 exit 0
