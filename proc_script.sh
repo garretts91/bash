@@ -2,7 +2,7 @@
 
 # Display help information
 display_help() {
-  echo "Process Manager Script"
+  echo "Process Manager"
   echo "Usage: $0 [options]"
   echo "Options:"
   echo "  -h              Display this help message."
