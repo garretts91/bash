@@ -17,6 +17,7 @@ display_help() {
 }
 
 # Function to check for zombie processes
+# TODO: Zombie Killer Function
 check_zombies() {
   zombie_count=$(grep -l '^State:\s*.*\(Z\|z\)' */status | wc -l)
   if [[ $zombie_count -gt 0 ]]; then
