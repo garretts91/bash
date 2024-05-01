@@ -1,0 +1,5 @@
+# Edit this file and type your solution where indicated, the code below is just an example
+run $(python -c "print 'A'*4 + '\x11\x11\x11\x11'")
+
+# Leave the code below in place
+quit
