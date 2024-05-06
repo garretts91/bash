@@ -8,7 +8,7 @@ int fibonacci(int n)
 {
     if (n < 2)
         return n;
-    return fibo(n - 1) + fibo(n - 2);
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
 int check_authentication(char *password)
