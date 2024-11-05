@@ -976,7 +976,7 @@ legacy:
 # default-reputation-path: ./
 # reputation-files:
 # - reputation.list
-# 3 - mdl.list
+# - mdl.list
 
 # When run with the option --engine-analysis, the engine will read each of
 # the parameters below, and print reports for each of the enabled sections
