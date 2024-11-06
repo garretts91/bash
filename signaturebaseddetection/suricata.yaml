@@ -951,10 +951,10 @@ host-mode: auto
 
 # reputation:
 #  enabled: yes
-reputation-categories-file: ./categories.txt
-default-reputation-path: ./
-reputation-files:
-  - mdl.list
+# reputation-categories-file: ./categories.txt
+# default-reputation-path: ./
+# reputation-files:
+#   - mdl.list
 
 # When run with the option --engine-analysis, the engine will read each of
 # the parameters below, and print reports for each of the enabled sections
